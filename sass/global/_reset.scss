@@ -1,0 +1,65 @@
+@use 'fonts';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10px / 16px = 1rem = 10px
+}
+
+a,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  // background-color: var(--color-light-2);
+  font-family: var(--font-main);
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--color-dark-3);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}

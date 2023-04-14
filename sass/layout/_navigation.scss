@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-header);
+    z-index: 2;
+
+    &__wrap {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60vw;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-size: 1.8rem;
+    }
+}

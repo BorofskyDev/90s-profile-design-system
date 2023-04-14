@@ -1,0 +1,30 @@
+@use 'fonts';
+
+:root {
+  // Colors
+  --color-purple: #714FA8;
+  --color-green: #7DE3C3;
+  --color-blue: #90dcff;
+  --color-red: #E6637A;
+  --color-yellow: #FDFCC5;
+
+  --color-light-1: #ebebeb;
+  --color-light-2: #c9c9c9;
+  --color-light-3: #adadad;
+
+  --color-dark-1: #1e1c21;
+  --color-dark-2: #100f12;
+  --color-dark-3: #070608;
+
+  
+  // Shadows
+  --shadow-sm: 0 1px 0.5rem rgba(0, 0, 0, 0.5);
+  
+  // Spacing
+  
+  // Typography
+
+  --font-main: 'LifeSaversRegular', cursive;
+  --font-header: 'Mystery Quest', cursive;
+  --font-section: 'Mr Dafoe', cursive;
+}
