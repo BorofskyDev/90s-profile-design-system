@@ -2,11 +2,11 @@
 
 :root {
   // Colors
-  --color-purple: #714FA8;
-  --color-green: #7DE3C3;
+  --color-purple: #714fa8;
+  --color-green: #7de3c3;
   --color-blue: #90dcff;
-  --color-red: #E6637A;
-  --color-yellow: #FDFCC5;
+  --color-red: #e6637a;
+  --color-yellow: #fdfcc5;
 
   --color-light-1: #ebebeb;
   --color-light-2: #c9c9c9;
@@ -16,15 +16,43 @@
   --color-dark-2: #100f12;
   --color-dark-3: #070608;
 
-  
   // Shadows
   --shadow-sm: 0 1px 0.5rem rgba(0, 0, 0, 0.5);
-  
+
   // Spacing
-  
+
   // Typography
 
-  --font-main: 'LifeSaversRegular', cursive;
-  --font-header: 'Mystery Quest', cursive;
-  --font-section: 'Mr Dafoe', cursive;
+  --font-main: 'JuraRegular', sans-serif;
+  --font-label: 'Boeotia', serif;
+  --font-heading: 'SevenEleven', sans-serif;
+  --font-semi-bold: 'JuraSemiBold', sans-serif;
+  --font-bold: 'JuraBold', sans-serif;
+
+  // Font Size
+
+  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+  --fs-800: 3.5rem;
+  --fs-700: 1.5rem;
+  --fs-600: 1rem;
+  --fs-500: 1rem;
+  --fs-400: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+
+  @media (min-width: 35em) {
+    --fs-800: 5rem;
+    --fs-700: 2.5rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+  }
+
+  @media (min-width: 45em) {
+    --fs-800: 6.25rem;
+    --fs-700: 3.5rem;
+    --fs-600: 2rem;
+    --fs-500: 1.75rem;
+    --fs-400: 1.125rem;
+  }
 }

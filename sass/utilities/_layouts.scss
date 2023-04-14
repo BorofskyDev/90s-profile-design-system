@@ -2,5 +2,9 @@
     padding-inline: 2em;
     margin-inline: auto;
     max-width: 80rem;
-    
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
 }
