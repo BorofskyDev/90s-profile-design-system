@@ -1,0 +1,10 @@
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 100rem;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}

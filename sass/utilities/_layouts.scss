@@ -1,10 +1,11 @@
-.container {
-    padding-inline: 2em;
-    margin-inline: auto;
-    max-width: 80rem;
-}
+.mt-xsm {margin-top: 0.5rem;}
+.mt-sm {margin-top: 1rem;}
+.mt-md {margin-top: 1.5rem;}
+.mt-lg {margin-top: 2rem;}
+.mt-xlg {margin-top: 2.5rem;}
 
-.flex {
-    display: flex;
-    gap: var(--gap, 1rem);
-}
+.mb-xsm {margin-bottom: 0.5rem;}
+.mb-sm {margin-bottom: 1rem;}
+.mb-md {margin-bottom: 1.5rem;}
+.mb-lg {margin-bottom: 2rem;}
+.mb-xlg {margin-bottom: 2.5rem;}
