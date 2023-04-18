@@ -19,10 +19,16 @@
   // Shadows
   --shadow-sm: 0 1px 0.5rem rgba(0, 0, 0, 0.5);
 
-  --text-shadow-techno: -0.1rem 0.1rem 0.1rem var(--color-highlight-1),
-    -0.2rem 0.2rem 0.1rem var(--color-highlight-2),
-    -0.3rem 0.3rem 0.1rem var(--color-highlight-4),
-    -0.4rem 0.4rem 0.1rem var(--color-highlight-5);
+  --text-shadow-techno: -0.1rem -0.1rem 0.1rem var(--color-highlight-1),
+    -0.2rem -0.2rem 0.1rem var(--color-highlight-2),
+    -0.3rem -0.3rem 0.1rem var(--color-highlight-4),
+    -0.4rem -0.4rem 0.1rem var(--color-highlight-5);
+
+  --text-shadow-hover: -0.1rem -0.1rem 0.1rem var(--color-highlight-1),
+    -0.2rem -0.2rem 0.2rem var(--color-highlight-2),
+    -0.3rem -0.3rem 0.3rem var(--color-highlight-3),
+    -0.4rem -0.4rem 0.4rem var(--color-highlight-4),
+    -0.5rem -0.5rem 0.5rem var(--color-highlight-5);
 
   // Spacing
 
