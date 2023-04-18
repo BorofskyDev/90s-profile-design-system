@@ -8,3 +8,8 @@
   display: flex;
   gap: var(--gap, 1rem);
 }
+
+.grid-auto {
+  display: grid;
+  gap: 20px;
+}
