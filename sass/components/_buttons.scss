@@ -1,8 +1,6 @@
 .rotating-button {
   position: relative;
   padding: 4rem 10rem;
-//   width: 10.5rem;
-//   height: 5.5rem;
   display: inline-block;
   border-radius: 0.5rem;
 
@@ -23,9 +21,10 @@
     background: linear-gradient(
       var(--degree),
       var(--color-highlight-1),
-      var(--color-dark-3),
-      var(--color-dark-3),
-      var(--color-highlight-2)
+      var(--color-highlight-2),
+      var(--color-highlight-3),
+      var(--color-highlight-4),
+      var(--color-highlight-5)
     );
   }
 
