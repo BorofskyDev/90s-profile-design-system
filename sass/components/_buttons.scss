@@ -1,0 +1,60 @@
+.rotating-button {
+  position: relative;
+  padding: 4rem 10rem;
+//   width: 10.5rem;
+//   height: 5.5rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+
+  &__section {
+    position: absolute;
+    inset: -0.2rem;
+    display: block;
+    background: var(--color-highlight-4);
+    border-radius: 0.5rem;
+  }
+
+  &__section:nth-child(2) {
+    filter: blur(1rem);
+  }
+
+  &__section,
+  &__section:nth-child(2) {
+    background: linear-gradient(
+      var(--degree),
+      var(--color-highlight-1),
+      var(--color-dark-3),
+      var(--color-dark-3),
+      var(--color-highlight-2)
+    );
+  }
+
+  &__text {
+    font-family: var(--font-label);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border: 0.1rem solid var(--color-dark-1);
+    border-radius: 0.3rem;
+    background: var(--color-dark-2);
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.075);
+        transform: skew(25deg);
+    }
+  }
+}

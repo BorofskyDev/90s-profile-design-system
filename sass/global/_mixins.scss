@@ -1,4 +1,9 @@
-@mixin test {
+@mixin headingFont {
     font-family: var(--font-heading);
     text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+@mixin labelBase {
+    
 }
