@@ -23,6 +23,21 @@
     src: local('JuraBold'), url(../../fonts/Jura/JuraBold.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'BungeeShade';
+    src: local('BungeeShade'), url(../../fonts/Bungee-Shade/BungeeShade-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Audiowide';
+    src: local('Audiowide'), url(../../fonts/Audiowide/Audiowide-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SpaceMonoRegular';
+    src: local('SpaceMonoRegular'), url(../../fonts/Space-Mono/SpaceMonoRegular.ttf) format('truetype');
+}
+
 
 // Look at getting Bungee Shade to replace Boeotia, Space Mono to replace Jura,
 // and Audiowide to replace SevenEleven
